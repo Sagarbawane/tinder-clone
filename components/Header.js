@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div
-      className={`
+      className={`${style.wrapper} 
       ${currentAccount ? "bg-gray-900" : "bg-transparent fixed"}
       `}
     >
