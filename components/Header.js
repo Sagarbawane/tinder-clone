@@ -21,12 +21,9 @@ const Header = () => {
 
   return (
     <div
-      className={`${style.wrapper}
+      className={`
       ${currentAccount ? "bg-gray-900" : "bg-transparent fixed"}
       `}
-      className={`${style.wrapper}
-   
-    `}
     >
       <div className={style.main}>
         <Image src={fire} alt="fire" height={45} width={45} />
